@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="forgotpassword">ForgotPassword</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="Addcourse">AddCourse</string>
+    <string name="uploadcsv">UploadCSV</string>
+    <string name="coursename">CourseName</string>
+    <string name="AddNewCourse">Add New Course</string>
+    <string name="course_name">Course Name</string>
+    <string name="uploadclassroster">UploadClassRoster</string>
+    <string name="addexam">AddExam</string>
+    <string name="signup">SignUp</string>
+</resources>

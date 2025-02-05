@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/edittext_background"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:autofillHints="Enter Username" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittext_background"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="Enter EmailId" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Password"
+        android:background="@drawable/edittext_background"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:autofillHints="Password" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/edittext_background"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:autofillHints="Confirm Password" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="2dp"
+        android:text="Sign Up" />
+
+
+
+</LinearLayout>
