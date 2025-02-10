@@ -1,6 +1,13 @@
 # AnonymousGradingSystem
  
-Built an Android application utilizing AWS for secure and anonymous exam grading. Enabled instructors to generate unique barcodes for exams, ensuring anonymity during grading. Integrated secure login mechanisms and optimized storage handling through AWS, guaranteeing data security and accessibility. Developed intuitive user interfaces with Android Studio, facilitating ease of use and improving the grading workflow efficiency for academic settings.
+• Secured user authentication by integrating AWS Amplify Auth with Cognito for email confirmation and
+account management.
+• Streamlined grading by implementing barcode scanning using the phone’s camera, linking scanned grades to
+students and storing them securely in AWS.
+• Improved exam management by enabling instructors to create exams, generate unique barcodes, and associate
+them with student names.
+• Ensured seamless backend synchronization by using AWS Amplify API with GraphQL and DynamoDB for
+secure and scalable data storage
 ![WhatsApp Image 2025-02-05 at 16 55 37](https://github.com/user-attachments/assets/5d4a41c8-2585-4a93-ae7a-c314cd4107b6)
 ![signup_page](https://github.com/user-attachments/assets/106112db-96f0-4feb-9ebc-d94d8c4e821d)
 ![confirm_signup](https://github.com/user-attachments/assets/c5a3690e-5ac6-4579-9b0f-cbaf2c2b4f1c)
