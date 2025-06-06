@@ -8,13 +8,24 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/appHeadingCourseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_heading"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+
 
     <TextView
         android:id="@+id/courseName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CourseName"
-        android:textColor="#4B0082"
+        android:textColor="@color/primary"
         android:textSize="32sp"
         android:textStyle="bold"
         android:layout_marginBottom="15dp"
