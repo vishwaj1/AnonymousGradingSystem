@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Anonymous Grading System</string>
+    <string name="app_heading">Anonymous Grading System</string>
     <string name="login">Login</string>
     <string name="forgotpassword">ForgotPassword</string>
     <string name="textview">TextView</string>
